@@ -1,0 +1,36 @@
+.salary-table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    background-color: rosybrown;
+}
+.salary-table thead {
+    background-color: bisque;
+}
+.salary-table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.salary-img {
+    max-height: 50px;
+    cursor: pointer;
+}
+
+#photo-review img
+{
+    max-width: 100%;
+}
+
+.date-form {
+    margin-bottom: 20px;
+}
+
+.new-worker-form {
+    width: 50%;
+    margin: auto;
+}
+
+.new-worker-form p {
+    margin: 0;
+}

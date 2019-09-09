@@ -1,0 +1,24 @@
+{
+  "name": "xzprod/wine",
+  "type": "project",
+  "authors": [
+    {
+      "name": "XZprod",
+      "email": "r.o.profile@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "ext-gd": "*",
+    "ext-http": "*",
+    "ext-mysql": "*"
+  },
+
+
+  "autoload": {
+    "psr-4": {
+      "App\\": "class"
+    }
+  }
+
+}
