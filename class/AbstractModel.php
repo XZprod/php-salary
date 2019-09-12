@@ -121,6 +121,5 @@ abstract class AbstractModel
         $sql .= implode(', ', $values);
         $sql .= ');';
         static::query($sql);
-        header("Location:/");
     }
 }
